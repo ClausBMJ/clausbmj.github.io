@@ -1,0 +1,138 @@
+::placeholder {
+  color: lightgray !important;
+  opacity: 1 !important;
+}
+
+.cfi::placeholder {
+  color: slategray !important;
+  opacity: 1 !important;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: lightgray !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: lightgray !important;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font: 100px "Montserrat", sans-serif;
+}
+
+h2 {
+  font: 35px "Montserrat", sans-serif;
+}
+
+h3 {
+  font: 50px "Montserrat", sans-serif;
+}
+
+h4 {
+  font: 25px "Montserrat", sans-serif;
+}
+
+p {
+  font: 20px "Lato", sans-serif;
+}
+
+.cfi {
+  font: 20px "Lato", sans-serif;
+  color: white !important;
+  border-radius: 5px;
+  background: #1f147a;
+  margin-right: 5px;
+}
+.cfi2 {
+  background: #89cff0;
+  color: black !important;
+  border-color: black;
+}
+
+.cfl {
+  font: 20px "Lato", sans-serif;
+  color: white;
+  border-radius: 5px;
+  background: #1f147a;
+  margin-right: 5px;
+}
+
+.cfl2 {
+background: #89cff0;
+color: black !important;
+}
+
+.fli {
+  font: 20px "Lato", sans-serif;
+  padding-bottom: 20px;
+}
+
+.bg-babyblue {
+  background-color: #89cff0;
+  color: black;
+}
+
+.bg-darkblue {
+  background-color: #2f248a;
+  color: white;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbarcustom {
+  font: 20px "Consolas", sans-serif;
+  color: white;
+  border-radius: 5px;
+  background: #3f349a;
+  margin-right: 5px;
+}
+
+.navbarlink {
+  font: 20px "Consolas", sans-serif;
+  color: white;
+  border-radius: 5px;
+  background: #3f349a;
+  margin-left: 100px;
+}
+
+.mailbutton {
+  font: 20px "Lato", sans-serif;
+  color: white;
+  background: #3f349a;
+}
+
+.mailbutton2 {
+  font: 20px "Lato", sans-serif;
+  color: black;
+  background: #79bfe0;
+  border: solid;
+  border-width: 1px;
+}
+
+.mailbutton:hover {
+  color: white;
+  background: #4f44aa;
+}
+
+.mailbutton2:hover {
+  color: black;
+  background: #69afd0;
+}
+
+.form-group > .dark-label {
+  float: left;
+  color: black;
+}
+
+.form-group > input {
+  color: black;
+}
