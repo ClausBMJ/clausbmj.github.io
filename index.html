@@ -9,11 +9,10 @@
     <title>Spartakus Bordtennisklub</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato">
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="icon" type="image/png" href="bat.png">
+    <link rel="icon" type="image/png" href="./images/bat.png">
 </head>
 
 <body>
@@ -47,7 +46,7 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-2">
                 <h1>Spartakus Bordtennisklub</h1>
-                <h2>"Det batter!" - Viktor Juul</h2>
+                <h2>siden 2020</h2>
             </div>
         </div>
     </div>
@@ -99,7 +98,7 @@
                     </ul>
             </div>
             <div class="col-md-4 col-md-offset-1">
-                <img src="faciliteter.jpg" alt="Billede af bordtennisbord og bordtennisbat" class="img-responsive" style="box-shadow: 3px 3px 15px black; border-radius: 15px; display:inline; width:500px; height:500px;">
+                <img src="./images/faciliteter.jpg" alt="Billede af bordtennisbord og bordtennisbat" class="img-responsive" style="box-shadow: 3px 3px 15px black; border-radius: 15px; display:inline; width:500px; height:500px;">
             </div>
         </div>
     </div>
@@ -124,32 +123,49 @@
             </div>
             <div class="col-md-4 col-md-offset-1" style="background-color: #1f147a; box-shadow: 3px 3px 15px black; border-radius: 15px;">
                 <h3><b>Kontakt</b></h3>
-                <form>
+                <form action="mailto:keyloggertestgruppex@gmail.com" method="post" enctype="text/plain">
                     <div class="row">
                         <div class="form-group col-md-4 col-md-offset-2">
-                            <label for="firstname" class="cfl">Fornavn</label>
-                            <input type="text" class="form-control cfi" id="firstname" placeholder="Fornavn">
+                            <label for="fornavn" class="cfl">Fornavn</label>
+                            <input type="text" class="form-control cfi" name="fornavn" id="fornavn" placeholder="Fornavn">
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="lastname" class="cfl">Efternavn</label>
-                            <input type="text" class="form-control cfi" id="lastname" placeholder="Efternavn">
+                            <label for="efternavn" class="cfl">Efternavn</label>
+                            <input type="text" class="form-control cfi" name="efternavn" id="efternavn" placeholder="Efternavn">
                         </div>
                         <div class="form-group col-md-8 col-md-offset-2">
                             <label for="email" class="cfl">Email</label>
-                            <input type="email" class="form-control cfi" id="email" placeholder="Email">
+                            <input type="email" class="form-control cfi" name="email" id="email" placeholder="Email">
                         </div>
                         <div class="form-group col-md-8 col-md-offset-2">
-                            <label for="message" class="cfl">Besked</label>
-                            <textarea rows="8" class="form-control cfi" id="message" placeholder="Besked" maxlength="140"></textarea>
+                            <label for="besked" class="cfl">Besked</label>
+                            <textarea rows="8" class="form-control cfi" name="besked" id="besked" placeholder="Besked" style="resize: none"></textarea>
+                        </div>
+                        <div style="text-align: center;">
+                            <input type="submit" class="btn mailbutton" style="margin-bottom: 20px;" name="submit" value="Send besked">
                         </div>
                     </div>
                 </form>
-                <div class="text-center">
-                    <a class="btn mailbutton" style="margin-bottom: 20px;" href="mailto:keyloggertestgruppex@gmail.com">Send besked</a>
-                </div>
             </div>
         </div>
     </div>
+
+    <div class="container-fluid bg-babyblue" style="padding-bottom: 0px; padding-top: 15px;" id="links">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-4">
+                <img src="./images/facebook.png" width="32px" /> <a href="#" class="fli">SBK på Facebook</a><br>
+                <img src="./images/instagram.png" width="32px" /> <a href="#" class="fli">SBK på Instagram</a><br>
+                <img src="./images/youtube.png" width="32px" /> <a href="#" class="fli">SBK på YouTube</a><br>
+                <br>
+            </div>
+            <div class="col-md-2 col-md-offset-0">
+                <img src="./images/babyblue.png" width="32px" /> <a href="https://bordtennisdanmark.dk/" class="fli">Bordtennis Danmark</a><br>
+                <img src="./images/babyblue.png" width="32px" /> <a href="https://www.teamdanmark.dk/" class="fli">Team Danmark</a><br>
+                <img src="./images/babyblue.png" width="32px" /> <a href="https://bordtennisportalen.dk/" class="fli">Bordtennis Portalen</a><br>
+            </div>
+        </div>
+    </div>
+
 </div>
 </body>
 
