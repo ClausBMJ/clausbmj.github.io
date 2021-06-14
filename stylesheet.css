@@ -153,7 +153,10 @@ color: black !important;
   .navbarlink {
     margin-left: 0px;
   }
+  .mailbutton {
+    margin-top: -28px;
+  }
   .mailbutton2 {
-    margin: 5px;
+    margin-top: 5px;
   }
 }
