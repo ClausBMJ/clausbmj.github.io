@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #89cff0;
 }
 
 h1 {
@@ -88,6 +88,11 @@ color: black !important;
   padding-bottom: 70px;
 }
 
+.navbar {
+  border-radius: 0px;
+  margin-bottom: -10px;
+}
+
 .navbarcustom {
   font: 20px "Consolas", sans-serif;
   color: white;
@@ -135,4 +140,16 @@ color: black !important;
 
 .form-group > input {
   color: black;
+}
+
+@media only screen and (max-width: 800px){
+  h1 {
+    font-size: 40px
+    }
+  h2 {
+    font-size: 20px;
+  }
+  .navbarlink {
+    margin-left: 0px;
+  }
 }
