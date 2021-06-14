@@ -116,6 +116,7 @@ color: black !important;
 }
 
 .mailbutton2 {
+  margin-top: 40px;
   font: 20px "Lato", sans-serif;
   color: black;
   background: #79bfe0;
@@ -151,5 +152,8 @@ color: black !important;
   }
   .navbarlink {
     margin-left: 0px;
+  }
+  .mailbutton2 {
+    margin: 5px;
   }
 }
